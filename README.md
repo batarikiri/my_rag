@@ -40,3 +40,5 @@ python app.py
 
 # Run in Terminal
 python scripts/ask.py
+
+# Batarin Kirill
