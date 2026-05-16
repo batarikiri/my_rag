@@ -10,6 +10,8 @@ Retrieval-Augmented Generation system for querying scientific PDFs using pgvecto
 - 🌐 Web interface with Gradio
 - ⚡ Streaming responses
 
+# Batarin Kirill
+
 ## Quick Start
 
 ```bash
@@ -41,4 +43,4 @@ python app.py
 # Run in Terminal
 python scripts/ask.py
 
-# Batarin Kirill
+
