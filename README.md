@@ -10,7 +10,7 @@ Retrieval-Augmented Generation system for querying scientific PDFs using pgvecto
 - 🌐 Web interface with Gradio
 - ⚡ Streaming responses
 
-# Batarin Kirill
+Batarin Kirill
 
 ## Quick Start
 
