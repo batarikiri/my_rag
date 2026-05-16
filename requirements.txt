@@ -1,0 +1,7 @@
+psycopg2-binary
+pgvector
+sentence-transformers
+PyPDF2
+requests
+gradio
+python-dotenv

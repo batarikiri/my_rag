@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: pgvector/pgvector:0.7.0-pg16
+    container_name: pgvector_rag
+    environment:
+      POSTGRES_DB: ragdb
+      POSTGRES_USER: raguser
+      POSTGRES_PASSWORD: ragpass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:

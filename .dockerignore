@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+README.md
+data/raw/*.pdf
+data/processed/
+*.log
+.DS_Store
+.ipynb_checkpoints/
