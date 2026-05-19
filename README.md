@@ -15,7 +15,7 @@ Batarin Kirill
 ## Demonstration
 
 Gradio:
-<video src="demo_5x.webm" controls width="700"></video>
+<video src="https://github.com/batarikiri/my_rag/blob/main/demo_5x.webm?raw=true" controls width="700"></video>
 Terminal:
 <video src="demo_3x.webm" controls width="700"></video>
 
