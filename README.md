@@ -12,6 +12,20 @@ Retrieval-Augmented Generation system for querying scientific PDFs using pgvecto
 
 Batarin Kirill
 
+## Demonstration
+
+Gradio:
+<video src="demo_5x.webm" controls width="700"></video>
+Terminal:
+<video src="demo_3x.webm" controls width="700"></video>
+
+## Features
+
+- 📄 PDF ingestion with intelligent chunking
+- 🔍 Vector search with pgvector  
+- 🤖 Local LLM via Ollama (llama3.2:3b)
+- 🌐 Web interface with Gradio
+
 ## Quick Start
 
 ```bash
