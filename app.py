@@ -21,7 +21,7 @@ def get_rag_answer(question):
         return
 
     q_embedding = embedder.encode_query(question)
-    results = db.search_similar(q_embedding, top_k=5)
+    results = db.search_similar(q_embedding, top_k=3)
     
     if not results:
         yield "Ничего не найдено в базе"
@@ -51,4 +51,4 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7861)
+    demo.launch(server_name="0.0.0.0", server_port=7862)

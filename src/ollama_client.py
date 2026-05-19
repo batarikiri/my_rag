@@ -12,8 +12,8 @@ class OllamaClient:
 		    "prompt": prompt, 
 		    "stream": True,
             "options": { 
-                "num_ctx": 4096,
-                "num_predict": 512,
+                "num_ctx": 2048,
+                "num_predict": 256,
                 "temperature": temperature,
                 "num_thread": 4
                 }

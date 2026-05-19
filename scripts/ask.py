@@ -23,7 +23,7 @@ def main():
 	print("\n Поиск релевантных фрагментов....")
 
 	q_embedding = embedder.encode_query(question)
-	results = db.search_similar(q_embedding, top_k = 5)
+	results = db.search_similar(q_embedding, top_k = 3)
 
 	if not results:
 		print("Ничего не найдено в базе")
